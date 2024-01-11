@@ -7,7 +7,7 @@ import 'cypress-mochawesome-reporter/register';
 // import "./commands"
 
 
-describe('Login ',function(){
+describe('Login Test ',function(){
 
     const dayjs=require('dayjs'); 
          const todaysDate = dayjs().format('MM/DD/YYYY');
