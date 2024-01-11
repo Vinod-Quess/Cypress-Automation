@@ -1,0 +1,19 @@
+
+npx cypress run --spec cypress\e2e\logingtofms.cy.js
+npx cypress run --headed --spec cypress\e2e\fmsloginfirst.cy.js --browser chrome
+
+
+
+
+on ('task', {
+
+        excelToJsonconverter(filepath) {
+          const result = excelToJsonconverter({
+            source:Fs.readFilesync(filepath)
+          });
+          return result;
+        }
+ })
+    }
+  },
+})
