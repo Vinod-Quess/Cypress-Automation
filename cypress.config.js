@@ -11,7 +11,7 @@ const xlsx = require('xlsx');
 
 module.exports = defineConfig({
   // projectId: "ti6oc3",
-  projectId: "7nex1c",
+  projectId: "kvpzoz",
   defaultCommandTimeout: 10000,
   reporter:'cypress-mochawesome-reporter',
   video:true,
